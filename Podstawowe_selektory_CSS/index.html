@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+</body>
+</html>
+
+
+//Zadanie 1 samodzielnie
+//Html:
+
+<h1>Header 1 </h1>
+    <h2>Header 2 </h2>
+    <h3>Header 3 </h3>
+    <h4>Header 4 </h4>
+    <h5>Header 5 </h5>
+
+<div class="white">
+    Jakiś tekst
+    <div class="important">To jest div important </div>
+    <p class="important"> To jest paragraf important </p>
+</div>
+
+<div class="black">
+    Jakiś tekst 2
+    <div class="important">To jest div important </div>
+    <p class="important"> To jest paragraf important </p>
+</div>
+
+//CSS
+
+h1, h2, h3, h4, h5 {
+  background-color: green;
+}
+
+.white, .black {
+  background-color: grey;
+}
+
+div.important {
+  background-color: green;
+}
+
+div.white * {
+  background-color: blue;
+}
+
+//Zadanie 2
+<form>
+    <label class="main-width">Podaj swój email *</label>
+    <input type="email" name="email" />
+
+    <input type="submit" name="send" value="Wyślij" />
+    <div>
+        <span class="important main-width">Wazne</span>
+        <span class="user-panel important main-width">Wazne</span>
+    </div>
+</form>
+
+/css
+*[type="submit"]{
+  background-color: blue;
+}
+*[type*="email"]{
+  backgorund-color: green;
+}
+*[class~="main-width"]{
+  background-color: red;
+}
+*[class^="main-width"]{
+  background-color: pink;
+}

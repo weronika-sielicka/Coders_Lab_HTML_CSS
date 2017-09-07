@@ -1,0 +1,59 @@
+.link{
+  border-radius: 4px;
+  width: auto;
+  height: 20px;
+  background-color: yellow;
+}
+
+
+a:visited{
+  background-color: green;
+}
+
+#pic {
+  width: 100px;
+  height: 100px;
+  background-image: url("/home/weronika/Pulpit/WRO_FRO_S_08_Zaawanasowany_HTML_i_CSS/1_Zadania/Dzien_2/09.Zaawansowane selektory/images/limonka.jpg");
+  background-size: cover;
+  display: inline-block;
+}
+
+.avatar {
+  display: inline-block;
+  position: relative;
+  padding-top: 30px;
+  width: 450px;
+}
+
+
+.avatar p{
+  box-sizing: border-box;
+  padding-top: 5px;
+  margin: 10px;
+  display: inline-block;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px grey;
+  float: right;
+  vertical-align: middle;
+  position: absolute;
+  margin-top: 40px;
+}
+
+table tr:first-child{
+  background-color: blue;
+  font-weight: 700;
+  color: white;
+}
+
+table tr:nth-child(2n){
+  background-color: Aqua;
+}
+
+table tr:nth-child(2n+3){
+  background-color: CornflowerBlue;
+}
+
+td:hover{
+  color: red;
+}

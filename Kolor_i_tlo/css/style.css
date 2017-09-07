@@ -1,0 +1,32 @@
+/* #rocks {
+  height: 350px;
+  width: 50%;
+  background-image: url("../images/rocks.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+*/
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(../images/mountains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#grunwald {
+  height: 300px;
+  width: 300px;
+  background-image: url("../images/grunwald.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  opacity: 0.7;
+
+}

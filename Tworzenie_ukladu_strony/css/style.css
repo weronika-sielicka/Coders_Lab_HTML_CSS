@@ -1,0 +1,146 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#top {
+  height: auto;
+  width: 100%;
+  background-image: url("../images/night-sky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 680px;
+  vertical-align: middle;
+
+}
+
+#top > p {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bolder;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.loty1 {
+  box-sizing: border-box;
+  background-color: lightblue;
+  height: auto;
+  width: 1000px;
+  margin: 5px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 20px;
+
+}
+
+.loty1>p {
+  display: inline-block;
+  margin: 0 10px;
+  margin-right: 30px;
+  vertical-align: middle;
+  line-height: 30px;
+  padding-right: 180px;
+}
+
+.loty2 {
+  box-sizing: border-box;
+  background-color: blue;
+  width: 1000px;
+  height: auto;
+  margin: 5px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+
+
+}
+
+.loty2>p {
+  display: inline-block;
+  margin: 0 10px;
+  padding-right: 280px;
+  line-height: 30px;
+}
+
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background-color: navy;
+  padding-right: 700px;
+}
+
+footer>p {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+
+/*
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0;
+  padding:0;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+header, section, footer {
+  width: 100%;
+}
+header {
+      margin-top: 0;
+  background-image: url("../images/night-sky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 0;
+}
+
+article {
+  margin: 5px 0;
+}
+.loty1 {
+  background-color: lightblue;
+  padding: 0;
+}
+.loty2 {
+  background-color: blue;
+}
+.loty1 > p {
+  float: left;
+  width: 33%;
+}
+.loty2 > p {
+  float: left;
+  width: 50%;
+}
+.loty1:after, .loty2:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.loty1 > p, .loty2 > p {
+  line-height: 0;
+  padding-left: 10px;
+}
+footer {
+  background-color: navy;
+  color: white;
+  margin: 0 auto;
+}
+
+*/

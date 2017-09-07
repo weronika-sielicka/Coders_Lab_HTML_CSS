@@ -1,0 +1,43 @@
+/*
+#extra {
+  width: 200px;
+  height: 200px;
+}
+
+#parent{
+  background-color: black;
+}
+
+#child1 {
+  position: absolute;
+  background-color: red;
+  z-index: 2;
+}
+
+#child2{
+  position: absolute;
+  background-color: green;
+  z-index: 1;
+
+}
+
+#child3{
+  position: absolute;
+  background-color: blue;
+}
+*/
+
+#form1 {
+  position: relative;
+}
+
+.f1 > label {
+  margin: 10px 10px;
+  display: block;
+  position: absolute;
+}
+
+.f1 > input {
+  display: block;
+  margin: 5px 5px;
+}

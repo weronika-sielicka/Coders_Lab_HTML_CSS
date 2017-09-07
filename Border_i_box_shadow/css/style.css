@@ -1,0 +1,60 @@
+.popup {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  background-color: beige;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.kolo, .elipsa, .limonka{
+  box-sizing: border-box;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.kolo{
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+.elipsa{
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 20%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 20%;
+  box-sizing: border-box;
+  position: static;
+}
+
+.limonka{
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 10%;
+  box-sizing: border-box;
+}
+
+.next {
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 0 5px red;
+  text-align: center;
+  padding-top: 30px;
+  box-shadow: 0 -50px 200px 10px blue, 0 50px 0 10px rgba(255,0,0,.15);
+  box-shadow: 10px 10px 0 5px pink;
+)
+
+}

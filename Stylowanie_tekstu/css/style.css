@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.eot');
+	src: local('Lato Regular'), local('Lato-Regular'),
+		url('../fonts/-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato-Regular.woff') format('woff'),
+		url('../fonts/Lato-Regular.ttf') format('truetype'),
+		url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bree Serif';
+	src: url('../fonts/BreeSerif-Regular.eot');
+	src: local('Bree Serif'), local('BreeSerif-Regular'),
+		url('../fonts/BreeSerif-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BreeSerif-Regular.woff2') format('woff2'),
+		url('../fonts/BreeSerif-Regular.woff') format('woff'),
+		url('../fonts/BreeSerif-Regular.ttf') format('truetype'),
+		url('../fonts/BreeSerif-Regular.svg#BreeSerif-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive.woff2') format('woff2'),
+         url('../fonts/chunkfive.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+  font-family: 'chunkfiveroman', sans-serif;
+  font-style: italic;
+}
+div {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+span {
+  font-family: "Spectral", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
